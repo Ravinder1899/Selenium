@@ -15,6 +15,13 @@ public class MultipleWindowHandle {
 //            driver.close();
 //        }
 //    }
-////switch to the parent window
-//driver.switchTo().window(parent);
+//  switch to the parent window
+//  driver.switchTo().window(parent);
+
+
+//    Set<String> windowHandles = driver.getWindowHandles();
+//    List<String> windowStrings = new ArrayList<>(windowHandles);
+//    String reqWindow = windowStrings.get(index);
+//    driver.switchTo().window(reqWindow);
+//    logger.info("Switched to " + driver.getTitle());
 }
